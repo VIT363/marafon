@@ -8,14 +8,12 @@ public class Task4 {
         int[] array=new int[100];
         for (int i=0;i< array.length;i++)
             array[i]= random.nextInt(10000);
-
         int max3=array[0]+array[1]+array[2];
         int ind=0;
         for (int i=1;i<array.length-2;i++){
             int sum=0;
             for (int j=i;j<i+3;j++)
                 sum+=array[j];
-
                 if (sum>max3){
                     max3=sum;
                     ind=i;
