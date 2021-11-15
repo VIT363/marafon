@@ -16,7 +16,7 @@ public class Task3 {
         for (int i = 0; i < dualMass.length; i++) {
             int sum = 0;
             for (int j = 0; j < dualMass[i].length; j++) {
-                maxSum += dualMass[i][j];
+                sum += dualMass[i][j];
             }
             if (sum >= maxSum) {
                 maxSum = sum;
