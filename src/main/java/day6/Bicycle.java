@@ -17,10 +17,7 @@ public class Bicycle {
         System.out.println("Это мотоцикл");
     }
     int yearDifference(int inputYear){
-        int raznica=inputYear-year;
-        if (raznica<0)
-            raznica=-raznica;
-        return raznica;
+        return Math.abs(inputYear-year);
     }
 }
 
