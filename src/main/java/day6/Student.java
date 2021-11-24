@@ -2,7 +2,6 @@ package day6;
 
 public class Student {
    public String name1;
-
    public String getName1() {
      return name1;
    }

@@ -6,7 +6,6 @@ public class Airplane {
     private int length;
     private int weight;
     private int fuel;
-
     public Airplane(String producer, int year, int length, int weight, int fuel) {
         this.producer = producer;
         this.year = year;
